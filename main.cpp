@@ -1,18 +1,18 @@
 #include <iostream>
 #include <thread>
 
-#include "./print_ts.h"
 #include "./tester.h"
 
 using namespace std;
 int main() {
-    string s1 = "some";
-    string s2 = "data";
+    int numThreads = std::thread::hardware_concurrency();
 
-    PRINT2(s1,s2);
-    PRINT3(s1,s1,s1);
+    startThreads("aaaaaaaaaaaaaaaaa- ", numThreads, P2, 1000, 100);
+    startThreads("zzzzzzzzzzzzzzzzz- ", numThreads, P3, 1000, 100);
 
-    startThreads("print this",4,P3,200,90);
+    std::this_thread::sleep_for(std::chrono::milliseconds(1000));
     setCancelThreads(true);
+
     joinThreads();
 }
+

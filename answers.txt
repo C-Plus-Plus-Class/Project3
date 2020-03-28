@@ -1,0 +1,7 @@
+1) How do you determine the number of threads you should launch to realistically test your application
+    Using more threads than the maximum amount of threads your cpu can run concurrently will test concurrent runs as
+    well as series runs allowing you to test all aspects of the process
+2) If you are launching several threads, under what circumstances would these threads not run in parallel on a modern processor
+    If you are launching more threads than double the amount of cores on your processor. Most modern processors support
+    hyper-threading meaning each core can run 2 threads. In this case some threads would run in parallel however some
+    would have to run in series

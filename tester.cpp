@@ -1,6 +1,7 @@
 //
 // Created by allan on 3/28/20.
 //
+#include <iostream>
 #include <vector>
 #include <thread>
 #include <chrono>
@@ -9,64 +10,28 @@
 
 
 using namespace std;
-
 vector<thread> threads;
+/**if true threads running cancelableFunction will cease to run,
+ * if false threads will continue to run until their work is complete*/
 bool canceled = false;
 void cancelableFunction(std::string s, WHICH_PRINT wp, int numTimesToPrint, int millisecond_delay){
-    string cancelString = "canceld---------------------";
-//    cancelString.assign(USER_CHOSE_TO_CANCEL);//cant put const into non const function
-    switch(wp){//could do this with switch and set a function variable to a specific function and have only 1 for loop, but this was easier and we already have 5 redundant print functions so eh
-        case P1:
-            for(int i = 0; i<numTimesToPrint; i++){
-                if(canceled){
-                    PRINT1(cancelString);
-                    break;
-                }
-                PRINT1(s);
-                this_thread::sleep_for(chrono::milliseconds(millisecond_delay));
-            }
-            break;
-        case P2:
-            for(int i = 0; i<numTimesToPrint && !canceled; i++){
-                if(canceled){
-                    PRINT1(cancelString);
-                    break;
-                }
-                PRINT2(s,s);
-                this_thread::sleep_for(chrono::milliseconds(millisecond_delay));
-            }
-            break;
-        case P3:
-            for(int i = 0; i<numTimesToPrint && !canceled; i++){
-                if(canceled){
-                    PRINT1(cancelString);
-                    break;
-                }
-                PRINT3(s,s,s);
-                this_thread::sleep_for(chrono::milliseconds(millisecond_delay));
-            }
-            break;
-        case P4:
-            for(int i = 0; i<numTimesToPrint && !canceled; i++){
-                if(canceled){
-                    PRINT1(cancelString);
-                    break;
-                }
-                PRINT4(s,s,s,s);
-                this_thread::sleep_for(chrono::milliseconds(millisecond_delay));
-            }
-            break;
-        case P5:
-            for(int i = 0; i<numTimesToPrint && !canceled; i++){
-                if(canceled){
-                    PRINT1(cancelString);
-                    break;
-                }
-                PRINT5(s,s,s,s,s);
-                this_thread::sleep_for(chrono::milliseconds(millisecond_delay));
-            }
-            break;
+    for(int i = 0; i<numTimesToPrint; i++){
+        if(canceled){
+            string cancelString;
+            cancelString.assign(USER_CHOSE_TO_CANCEL);//cant put const into non const function
+            PRINT1(cancelString);
+            return;
+        }
+        switch(wp){
+            case P1: PRINT1(s); break;
+            case P2: PRINT2(s,s); break;
+            case P3: PRINT3(s,s,s); break;
+            case P4: PRINT4(s,s,s,s); break;
+            case P5: PRINT5(s,s,s,s,s); break;
+        }
+        this_thread::sleep_for(chrono::milliseconds(millisecond_delay));
     }
+
 }
 void startThreads(std::string s, int numThreads, WHICH_PRINT wp, int numTimesToPrint, int millisecond_delay) {
     for(int i =0;i<numThreads;i++){

@@ -6,21 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/allan/CLionProjects/410Project3/print_ts.h
-string
--
-
-/home/allan/CLionProjects/410Project3/tester.cpp
-vector
+/home/allan/CLionProjects/410Project3/main.cpp
+iostream
 -
 thread
 -
-chrono
--
-tester.h
+./tester.h
 /home/allan/CLionProjects/410Project3/tester.h
-./print_ts.h
-/home/allan/CLionProjects/410Project3/print_ts.h
 
 /home/allan/CLionProjects/410Project3/tester.h
 string
