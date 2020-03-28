@@ -3,6 +3,7 @@
 
 CMakeFiles/410Project3.dir/main.cpp.o: ../main.cpp
 CMakeFiles/410Project3.dir/main.cpp.o: ../print_ts.h
+CMakeFiles/410Project3.dir/main.cpp.o: ../tester.h
 
 CMakeFiles/410Project3.dir/print_ts.cpp.o: ../print_ts.cpp
 CMakeFiles/410Project3.dir/print_ts.cpp.o: ../print_ts.h

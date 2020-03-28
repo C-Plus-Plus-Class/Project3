@@ -1,5 +1,8 @@
 #include <iostream>
+#include <thread>
+
 #include "./print_ts.h"
+#include "./tester.h"
 
 using namespace std;
 int main() {
@@ -8,4 +11,7 @@ int main() {
 
     PRINT2(s1,s2);
     PRINT3(s1,s1,s1);
+
+    startThreads("print this",4,P3,5,1000);
+    joinThreads();
 }
