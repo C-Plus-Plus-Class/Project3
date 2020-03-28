@@ -3,7 +3,6 @@
 //
 #include <vector>
 #include <thread>
-#include <time.h>
 #include <chrono>
 #include "tester.h"
 #include "./print_ts.h"
@@ -30,7 +29,7 @@ void cancelableFunction(std::string s, WHICH_PRINT wp, int numTimesToPrint, int 
         case P3:
             for(int i = 0; i<numTimesToPrint && !canceled; i++){
                 PRINT3(s,s,s);
-                this_thread::sleep_for(chrono::milliseconds(millisecond_delay))
+                this_thread::sleep_for(chrono::milliseconds(millisecond_delay));
             }
             break;
         case P4:
@@ -54,7 +53,7 @@ void startThreads(std::string s, int numThreads, WHICH_PRINT wp, int numTimesToP
 }
 
 void setCancelThreads(bool bCancel) {
-    canceled = bCancel
+    canceled = bCancel;
 }
 
 void joinThreads() {
