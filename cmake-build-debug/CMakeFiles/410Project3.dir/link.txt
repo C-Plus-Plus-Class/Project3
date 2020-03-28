@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/410Project3.dir/main.cpp.o CMakeFiles/410Project3.dir/print_ts.cpp.o CMakeFiles/410Project3.dir/tester.cpp.o  -o 410Project3 

@@ -1,0 +1,3 @@
+/home/allan/CLionProjects/410Project3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/allan/CLionProjects/410Project3/cmake-build-debug/CMakeFiles/410Project3.dir
+/home/allan/CLionProjects/410Project3/cmake-build-debug/CMakeFiles/edit_cache.dir
