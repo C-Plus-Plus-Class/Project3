@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/allan/CLionProjects/410Project3/main.cpp
-iostream
--
-
-/home/allan/CLionProjects/410Project3/print_ts.cpp
-print_ts.h
-/home/allan/CLionProjects/410Project3/print_ts.h
-
 /home/allan/CLionProjects/410Project3/print_ts.h
 string
 -
@@ -21,6 +13,8 @@ string
 /home/allan/CLionProjects/410Project3/tester.cpp
 tester.h
 /home/allan/CLionProjects/410Project3/tester.h
+./print_ts.h
+/home/allan/CLionProjects/410Project3/print_ts.h
 
 /home/allan/CLionProjects/410Project3/tester.h
 string

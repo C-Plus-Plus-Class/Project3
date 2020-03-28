@@ -1,6 +1,11 @@
 #include <iostream>
+#include "./print_ts.h"
 
+using namespace std;
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    string s1 = "some";
+    string s2 = "data";
+
+    PRINT2(s1,s2);
+    PRINT3(s1,s1,s1);
 }

@@ -12,9 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dfabd8d-feea-4c4c-9845-a19223abe31c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/410Project3" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/410Project3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/410Project3.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/410Project3.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/410Project3.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/410Project3.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/410Project3.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/410Project3.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/410Project3.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/410Project3.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/410Project3.dir/print_ts.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/410Project3.dir/print_ts.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/410Project3.dir/tester.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/410Project3.dir/tester.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/print_ts.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/print_ts.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tester.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tester.cpp" afterDir="false" />
     </list>
@@ -41,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunManager">
     <configuration name="410Project3" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="410Project3" TARGET_NAME="410Project3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="410Project3" RUN_TARGET_NAME="410Project3">
@@ -60,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585376138031</updated>
-      <workItem from="1585376139805" duration="6092000" />
+      <workItem from="1585376139805" duration="10573000" />
     </task>
     <servers />
   </component>
@@ -68,10 +74,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585381881773">
+    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585385615169">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1585381881773" />
+    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1585385615169" />
     <state x="491" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1585379781650">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -80,9 +86,33 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1585379840895" />
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1585382035994">
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1585384922406">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1585382035994" />
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585384922406" />
+    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1585384922406">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1585384922406" />
+    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1585384922405">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1585384922405" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1585384922406">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1585384922406" />
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1585386133715">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1585386133715" />
+    <state x="0" y="27" width="707" height="741" key="find.popup" timestamp="1585384799170">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="27" width="707" height="741" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1585384799170" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585386831083">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1585386831083" />
   </component>
 </project>
