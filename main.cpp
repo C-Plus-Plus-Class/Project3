@@ -12,6 +12,7 @@ int main() {
     PRINT2(s1,s2);
     PRINT3(s1,s1,s1);
 
-    startThreads("print this",4,P3,5,1000);
+    startThreads("print this",4,P3,200,90);
+    setCancelThreads(true);
     joinThreads();
 }

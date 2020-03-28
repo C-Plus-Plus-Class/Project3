@@ -13,8 +13,8 @@ using namespace std;
 vector<thread> threads;
 bool canceled = false;
 void cancelableFunction(std::string s, WHICH_PRINT wp, int numTimesToPrint, int millisecond_delay){
-    string cancelString;
-    cancelString.assign(USER_CHOSE_TO_CANCEL);//cant put const into non const function
+    string cancelString = "canceld---------------------";
+//    cancelString.assign(USER_CHOSE_TO_CANCEL);//cant put const into non const function
     switch(wp){//could do this with switch and set a function variable to a specific function and have only 1 for loop, but this was easier and we already have 5 redundant print functions so eh
         case P1:
             for(int i = 0; i<numTimesToPrint; i++){
